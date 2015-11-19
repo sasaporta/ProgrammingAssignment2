@@ -1,11 +1,3 @@
-#v = makeVector(c(1, 2, 3))
-#v2 = makeVector(c(1, 2, 3, 3, 3))
-#cachemean(v)
-#cachemean(v)
-#cachemean(v2)
-#m <- matrix(c(1, 7, 2, 4, 6, 8, 2, 4, 5), 3, 3)
-#solve(m)
-
 ## Functions makeCacheMatrix and cacheSolve can be used together to compute
 ## the inverse of a matrix. Once a particular matrix's inverse has been computed,
 ## the result is cached, so that the computation need not be repeated for the
